@@ -12,6 +12,9 @@ def test_second(open_browser):
     browser.element('[for="gender-radio-3"]').click()
     browser.element('[id="userNumber"]').type('1234567890').press_enter()
 
+def test_third():
+    pass
+
 
 
 
